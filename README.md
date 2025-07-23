@@ -21,16 +21,42 @@ weibo-scraper/
 ├── weibo_scraper.py          # 基于API的爬虫（推荐）
 ├── weibo_selenium_scraper.py # 基于Selenium的爬虫
 ├── get_uid.py               # UID获取工具
+├── batch_scraper.py         # 批量抓取工具
 ├── config.py                # 配置文件
+├── quick_start.py           # 快速入门示例
+├── setup.sh                 # Linux/macOS安装脚本
+├── setup.bat                # Windows批处理安装脚本
+├── setup.ps1                # Windows PowerShell安装脚本
 ├── requirements.txt         # 依赖包
-└── README.md               # 使用说明
+├── README.md               # 使用说明
+├── WINDOWS_GUIDE.md        # Windows用户专用指南
+└── user_list_example.txt   # 用户列表示例
 ```
 
 ## 安装依赖
 
+### Linux/macOS 用户
 ```bash
+# 使用安装脚本
+./setup.sh
+
+# 或手动安装
 pip install -r requirements.txt
 ```
+
+### Windows 用户
+```cmd
+# 使用PowerShell脚本（推荐）
+.\setup.ps1
+
+# 或使用批处理脚本
+setup.bat
+
+# 或手动安装
+pip install -r requirements.txt
+```
+
+**详细的Windows安装指南请查看 `WINDOWS_GUIDE.md` 文件**
 
 ## 使用方法
 
